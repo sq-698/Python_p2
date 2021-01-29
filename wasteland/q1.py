@@ -6,7 +6,7 @@ for x in f:
 
 #print(poem)
 
-words = (poem.split())
+words = (poem.lower().split())
 n_words = len(words)
 print(n_words)
 
