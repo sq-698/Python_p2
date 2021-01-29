@@ -1,4 +1,5 @@
 import collections
+
 poem = ""
 f = open("wasteland.txt", "r")
 for x in f:
@@ -19,3 +20,10 @@ f.write(str(n_words))
 f.write("\n")
 f.writelines(str(n_uniq_word))
 f.close()
+
+#def word_frequncy(text):
+res = collections.Counter(words)
+#poem_dic = {}
+
+
+
