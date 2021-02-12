@@ -1,11 +1,11 @@
 import glob
 
-list_of_files = glob.glob('files/*.txt')
+list_of_files = glob.glob('files-new/*.txt')
 for AF in list_of_files:
     with open(AF, "r") as f:
-         poem = f.read()
-    if poem == "0":
-        print(poem)
+         txt_f = f.read()
+    if txt_f == "0":
+        print(txt_f)
         print(AF)
 
 
