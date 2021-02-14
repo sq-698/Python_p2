@@ -7,6 +7,7 @@ for AF in list_of_files:
     if txt_f == "0":
         print(txt_f)
         print(AF)
+#GIT 3
 
 
 
