@@ -4,7 +4,7 @@ list_of_files = glob.glob('files-new/*.txt')
 list_of_files_name = []
 list_of_files_text = []
 file_no_child = []
-
+child_to_parent = {12345678: 3294802934, }
 
 for AF in list_of_files:
     list_of_files_name.append(AF[10:20])
